@@ -88,7 +88,6 @@ table {
 	width: 272px;
 	margin: auto;
 	margin-top: 2%;
-	display: block;
 }
 
 .logo img {
@@ -96,6 +95,11 @@ table {
 	height: 92px;
 	padding-top: 109px;
 	margin-bottom: 30px;
+}
+
+.search_bar {
+	width: 580px;
+	margin: auto;
 }
 
 input[name="search_bar"] {
@@ -106,6 +110,16 @@ input[name="search_bar"] {
 	background-size: 40px;
 	background-position: right;
 	}
+
+#mic {
+	background-image: url("Google_Mic.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	float: right;
+}
 
 .buttons {
 	text-align: center;
@@ -144,25 +158,11 @@ input[name="lucky"] {
 	color: #444;
 	float: left;
 	padding: 15px 12px 10px 12px;
-	margin: auto;
-
 }
 
 #right li {
 	float: right;
 }
-#mic {
-	
-	background-image: url("Google_Mic.png");
-	background-repeat: no-repeat;
-	background-size: 30px;
-	height: 30px;
-	width: 30px;
-	position: absolute;
-	float: right;
-}
 
-.search_bar {
-	width: 580px;
-	margin: auto;
-}
+
+
