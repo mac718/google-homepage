@@ -101,7 +101,7 @@ table {
 input[name="search_bar"] {
 	width: 580px;
 	height: 34px;
-	background-image: url("Google_Mic.png");
+	background-image: url("images/Google_Mic.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position: right;
